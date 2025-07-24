@@ -1,11 +1,11 @@
-const express = require('express');
+const express = require("express");
 
 const app = express();
 const PORT = 3000;
 
 // Define a route handler for the root path
-app.get('/', (req, res) => {
-  res.send('Hello, world!');
+app.get("/", (req, res) => {
+  res.send("Hello, world!");
 });
 
 // Start the server
